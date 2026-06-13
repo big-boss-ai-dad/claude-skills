@@ -1,0 +1,12 @@
+# シークレットは絶対にコミットしない
+.env
+*.env
+secrets/
+*_token.json
+youtube_token.json
+client_secret*.json
+
+# 一時ファイル
+_manga_prompt.txt
+__pycache__/
+*.pyc
